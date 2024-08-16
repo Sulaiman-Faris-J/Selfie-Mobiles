@@ -1,0 +1,25 @@
+/* css reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* css reset */
+
+html {
+  font-size: 62.5%;
+}
+
+/* colors */
+:root {
+  --color-primary: #4B4AEF;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-heading: #070337;
+  --color-text: #5C5A6F;
+  --footer-color: #061D49;
+  --color--copy-right: #112854;
+  --border-radius-1: 5px;
+}

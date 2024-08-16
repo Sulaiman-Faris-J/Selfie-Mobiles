@@ -1,0 +1,131 @@
+/* typography styles are present here*/
+
+/* calling the fonts here */
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/poppins-light.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/poppins/poppins-light.woff') format('woff');   /* Older Browsers */
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/poppins-regular.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/poppins/poppins-regular.woff') format('woff');   /* Older Browsers */
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/poppins-medium.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/poppins/poppins-medium.woff') format('woff');   /* Older Browsers */
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/poppins-semibold.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/poppins/poppins-semibold.woff') format('woff');   /* Older Browsers */
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/poppins/poppins-bold.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/poppins/poppins-bold.woff') format('woff');   /* Older Browsers */
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DmSans';
+  src: url('../fonts/dm-sans/dm-sans-regular.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/dm-sans/dm-sans-regular.woff') format('woff');   /* Older Browsers */
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+:root {
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'DmSans', sans-serif;
+}
+
+/* 1rem = 10px */
+
+body {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+ .h1,
+ .h2,
+ .h3.h4,
+ .h5,
+ .h6,
+ p {
+  line-height: 1.5;
+}
+
+ .h1-xl {
+  font-size: 9.6rem;
+}
+ .h1-lg {
+  font-size: 6.4rem;
+}
+ .h1 {
+  font-size: 4.8rem;
+}
+ .h2 {
+  font-size: 3.6rem;
+}
+ .h3 {
+  font-size: 3.2rem;
+}
+ .h4 {
+  font-size: 2.4rem;
+}
+ .h5 {
+  font-size: 2rem;
+}
+ .h6 {
+  font-size: 1.8rem;
+}
+ .para {
+  font: 1.6rem;
+}
+
+/* font weights */
+ .font-light{
+  font-weight: 300;
+}
+ .font-regular{
+  font-weight: 400;
+}
+ .font-medium{
+  font-weight: 500;
+}
+ .font-semibold{
+  font-weight: 600;
+}
+ .font-bold{
+  font-weight: 700;
+}
+
+@media screen and (max-width: 991px) {
+   .h1-xl {
+    font-size: 5rem;
+  }
+   .h1-lg {
+    font-size: 4rem;
+  }
+   .h1 {
+    font-size: 3.4rem;
+  }
+   .h2 {
+    font-size: 3rem;
+  }
+   .h3 {
+    font-size: 2.8rem;
+  }
+}
