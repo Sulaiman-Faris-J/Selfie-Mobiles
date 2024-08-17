@@ -14,12 +14,60 @@ html {
 
 /* colors */
 :root {
-  --color-primary: #4B4AEF;
+  --color-primary: #4b4aef;
   --color-white: #ffffff;
   --color-black: #000000;
   --color-heading: #070337;
-  --color-text: #5C5A6F;
-  --footer-color: #061D49;
+  --color-text: #5c5a6f;
+  --footer-color: #061d49;
   --color--copy-right: #112854;
   --border-radius-1: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*  Lists  */
+.list {
+  list-style: none;
+  padding-left: 0;
+  color: var(--color-black);
+}
+
+.list--inline li {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+/* Button */
+.btn {
+  font-size: 14px;
+  padding: 10px 22px;
+  border-radius: 5px;
+  font-weight: 500;
+  color: var(--color-white);
+  display: inline-block;
+  transition: all 0.35s ease;
+}
+.btn-primary {
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+.btn-primary:hover {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+/* collapsible */
+.collapsible--content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible--content {
+  max-height: 100vh;
+  opacity: 1;
 }
