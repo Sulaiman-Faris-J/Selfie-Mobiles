@@ -4,7 +4,7 @@
 }
 
 .nav-logo {
-  width: 16rem;
+  width: 13rem;
 }
 
 a > img {
@@ -51,7 +51,6 @@ a > img {
     width: 4rem;
     height: 4.4rem;
     padding-right: 1rem;
-    padding-top: 1rem;
     cursor: pointer;
   }
   .navbar-nav {
