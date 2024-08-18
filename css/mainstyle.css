@@ -1,8 +1,4 @@
 /* Navigation Bar */
-.navbar {
-  align-items: center;
-}
-
 .nav-logo {
   width: 13rem;
 }
@@ -18,16 +14,8 @@ a > img {
 
 .navbar-nav {
   display: flex;
-  width: auto;
-  height: auto;
-  background-color: transparent;
-  position: relative;
   flex-direction: row;
   gap: 5rem;
-}
-
-.nav-item {
-  padding: 1rem 0;
 }
 
 .nav-link {

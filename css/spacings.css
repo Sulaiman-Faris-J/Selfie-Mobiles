@@ -115,11 +115,11 @@
 .mt60 {
   margin-top: 6rem;
 }
-.mt80{
+.mt80 {
   margin-top: 8rem;
 }
 /* negative margins */
-.mt-minus-256{
+.mt-minus-256 {
   margin-block-start: -25.6rem;
 }
 /* negative margins */
@@ -220,6 +220,10 @@
 .py8 {
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
+}
+.py10 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .py12 {
   padding-top: 1.2rem;
@@ -403,33 +407,33 @@
 }
 
 /* section paddings */
-.section-padding-y{
+.section-padding-y {
   padding-block-start: 9rem;
   padding-block-end: 9rem;
 }
-.section-padding-top-2x{
+.section-padding-top-2x {
   padding-block-start: 18rem;
 }
-.section-padding-top{
+.section-padding-top {
   padding-block-start: 9rem;
 }
-.section-padding-bottom{
+.section-padding-bottom {
   padding-block-end: 9rem;
 }
 /* section paddings */
 
 @media screen and (max-width: 1200px) {
-  .section-padding-y{
+  .section-padding-y {
     padding-block-start: 5rem;
     padding-block-end: 5rem;
   }
-  .section-padding-top-2x{
+  .section-padding-top-2x {
     padding-block-start: 10rem;
   }
-  .section-padding-top{
+  .section-padding-top {
     padding-block-start: 5rem;
   }
-  .section-padding-bottom{
+  .section-padding-bottom {
     padding-block-end: 5rem;
   }
 }
